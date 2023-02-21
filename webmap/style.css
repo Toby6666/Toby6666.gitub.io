@@ -1,0 +1,50 @@
+/*Style for h3*/
+h3 {
+  border-top: 15px blue;
+  font-family: Lato, sans-serif;
+}
+
+/*Style for p*/
+p {
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+}
+
+/*Style for the pop-up*/
+.my-popup .mapboxgl-popup-content {
+  width: 200px;
+  background: rgba(188, 143, 143, 0.8);
+  border-top: 50px black;
+  padding: 20px;
+  color: white;
+}
+/**
+* Set rules for how the map overlays
+* (information box and legend) will be displayed
+* on the page. */
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(188, 143, 143, 0.8);
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  border-radius: 3px;
+}
+#features {
+  top: 0;
+  height: 200px;
+  margin-top: 20px;
+  width: 300px;
+}
+.mapboxgl-ctrl-geocoder {
+  width: 300px !important;
+}
+#menu {
+  position: absolute;
+  background: white;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+   background: rgba(0, 200, 140, 0.8);
+}
